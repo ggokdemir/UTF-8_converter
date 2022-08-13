@@ -18,7 +18,6 @@ def opener():
         for row in reader:
             row_to_json(row)            
             #Instead of printing, rows are going to be saved as json objects.
-            #print(row)
 
 #main 
 opener()
